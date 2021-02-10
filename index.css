@@ -1,4 +1,42 @@
 *{
   border: solid 1px red;
   box-sizing: border-box;
+  max-width: 100%;
+}
+
+body{
+  margin: 0 11.8%;
+}
+
+nav{
+  margin: 4rem auto;
+  padding: 0 1%;
+  height: auto;
+}
+
+/* Remove underline
+   BG color
+   Height/2 lines
+   child- bg colors 
+*/
+nav a{
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  margin: 0 8%;
+  padding: .1rem 1%;
+  /* width: auto; */
+  /* min-height: 100%; */
+  /* height: auto; */
+  text-align: center;
+  border-radius: 1rem;
+  
+}
+.header_img{
+  height: 35rem;
+  width: 35rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 12rem;
+ 
 }
