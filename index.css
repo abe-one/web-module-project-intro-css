@@ -10,10 +10,15 @@ body{
 }
 
 nav{
-  margin: 4rem auto;
   padding: 0 1%;
   height: auto;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {text-decoration: none;}
 
 /* Remove underline
    BG color
@@ -22,14 +27,15 @@ nav{
 */
 nav a{
   display: inline-block;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   font-size: 3rem;
   /* word-wrap: normal; */
-  margin: 0 8%;
+  margin: 4rem auto;
+  margin-right: 8rem;
   padding: .1rem 1%;
   /* width: auto; */
   /* min-height: 100%; */
-  /* height: auto; */
+  height: 8rem;
   border-radius: 1rem;
   
 }
@@ -76,19 +82,36 @@ h1{
 
 
 .useful_notes{
-  max-width: 30%;
+  /* max-width: 30%; */
   width: 33.3%;
   word-wrap: break-word;
   margin: auto 33.3%;
   font-size: 2rem;
+  
 }
 
 .note_img{
-  margin: auto 25%;
+  margin: auto 30%;
   width: 40%;
   height: auto;
 }
 
 .useful_notes p{
   margin: auto 15%;
+}
+
+footer{
+  margin-top: 10rem;
+  height: 70rem;
+  background-image: url(assets/footer_img.jpg);
+  position: relative;
+}
+
+
+footer nav{
+margin-top: 40rem;
+background-color: tan;
+position: absolute;
+bottom: -4rem;
+width: 100%;
 }
