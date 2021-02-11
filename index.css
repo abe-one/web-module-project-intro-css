@@ -22,11 +22,6 @@ a:link {
 
 a:visited {text-decoration: none;}
 
-/* Remove underline
-   BG color
-   Height/2 lines
-   child- bg colors 
-*/
 nav a{
   display: inline-block;
   color: white;
@@ -61,11 +56,14 @@ nav a:nth-child(3) {
 
 /* blank space at img bottom */
 .header_img{
+  position: relative;
   display: inline-block;
-  height: 30rem;
-  width: 30rem;
+  height: 28rem;
+  width: 28rem;
   border-radius: 50%;
-  background-attachment: fixed;
+  /* border: solid green 1px; */
+  padding: 0;
+  /* background-attachment: fixed; */
   overflow: hidden;
   /* background-image: url(assets/header_img.jpg);
   background-position-y: 26rem;
@@ -73,7 +71,16 @@ nav a:nth-child(3) {
   background-size: 30rem;
   background-repeat: no-repeat; */
   /* TEST formats */
+
   /* margin: 4rem 0 0 4rem; */
+}
+
+.header_img img{
+  /* position: absolute;
+  bottom: -1rem; */
+  /* border: red solid 1px; */
+  margin: 0;
+
 }
 
 
@@ -82,7 +89,7 @@ nav a:nth-child(3) {
   display: inline-block;
   margin: auto auto auto 5rem;
   padding: 0;
-  width: 70%;
+  width: 65%;
 }
 
 h1{
@@ -138,6 +145,7 @@ footer{
   background-size: cover;
   background-attachment: fixed;
   background-position-y: 35rem;
+  background-repeat: no-repeat;
   position: relative;
 }
 
